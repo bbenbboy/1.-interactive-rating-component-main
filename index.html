@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="card1">
+      <!-- <div id="rate-container1"-->
+      <div id="rate-container1">
+        <!-- Rating state start -->
+        <div id="star-container">
+          <div id="star">
+            <img src="images/icon-star.svg" class="image-star" />
+          </div>
+        </div>
+        <div class="comment">
+          <h3 style="font-size: 1.4em">How did we do?</h3>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div id="button-container">
+          <button id="buttons" class="firstBtn btn">
+            <p class="color">1</p>
+          </button>
+          <button id="buttons" class="secondBtn btn">
+            <p class="color">2</p>
+          </button>
+          <button id="buttons" class="thirdBtn btn">
+            <p class="color">3</p>
+          </button>
+          <button id="buttons" class="fouthBtn btn">
+            <p class="color">4</p>
+          </button>
+          <button id="buttons" class="fifthBtn btn">
+            <p class="color">5</p>
+          </button>
+        </div>
+        <div id="summit-container">
+          <input id="submit-button" type="submit" value="SUBMIT" />
+        </div>
+      </div>
+    </div>
+    <div class="card2 hidden">
+      <div id="rate-container2">
+        <img
+          id="image-thankyou"
+          src="images/illustration-thank-you.svg"
+          alt=""
+        />
+        <div id="pointRate">
+          <p class="pointColor">
+            You selected POINT out of <span class="scoreRate">0</span>
+          </p>
+        </div>
+        <div class="comment">
+          <h3>Thank you!</h3>
+          <p>
+            We appreciate you taking the time to give a rating. <br />If you
+            ever need more support, don’t hesitate to <br />get in touch!
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. <br />
+        Coded by <a href="#">BBoy</a>.
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
