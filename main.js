@@ -20,50 +20,53 @@ const container = document.getElementById("button-container");
 // Get all buttons with class="btn" inside the container
 const btns = container.getElementsByClassName("btn");
 
-console.log(btns.length);
+// console.log(btns.length);
 
 // Loop through the buttons and add the active class to the current/clicked button
-for (let i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function () {
-    let current = document.getElementsByClassName("active");
+const btnsActive = function () {
+  for (let i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function () {
+      let current = document.getElementsByClassName("active");
 
-    // If there's no active class
-    if (current.length > 0) {
-      current[0].className = current[0].className.replace(" active", "");
-    }
+      // If there's no active class
+      if (current.length > 0) {
+        current[0].className = current[0].className.replace("active", "");
+      }
 
-    // Add the active class to the current/clicked button
-    this.className += " active";
-  });
-}
+      // Add the active class to the current/clicked button
+      this.className += " active";
+    });
+  }
+};
+btnsActive();
 
 scoreBtn1.addEventListener("click", function () {
-  console.log(scoreBtn1);
+  // console.log(scoreBtn1);
   currentScore = 1;
   return (scoreRate.textContent = currentScore);
 });
 
 scoreBtn2.addEventListener("click", function () {
-  console.log(scoreBtn2);
+  // console.log(scoreBtn2);
   scoreBtn2.classList.add("orange");
   currentScore = 2;
   return (scoreRate.textContent = currentScore);
 });
 
 scoreBtn3.addEventListener("click", function () {
-  console.log(scoreBtn3);
+  // console.log(scoreBtn3);
   currentScore = 3;
   return (scoreRate.textContent = currentScore);
 });
 
 scoreBtn4.addEventListener("click", function () {
-  console.log(scoreBtn4);
+  // console.log(scoreBtn4);
   currentScore = 4;
   return (scoreRate.textContent = currentScore);
 });
 
 scoreBtn5.addEventListener("click", function () {
-  console.log(scoreBtn5);
+  // console.log(scoreBtn5);
   currentScore = 5;
   return (scoreRate.textContent = currentScore);
 });
