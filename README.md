@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/bbenbboy/1.-interactive-rating-component-main.git)
-- Live Site URL: [Add live site URL here](https://interactive-rating-component-main-beige.vercel.app/
+- Live Site URL: [Add live site URL here](https://interactive-rating-component-main-beige.vercel.app/)
 
 ## My process
 
