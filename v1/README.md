@@ -33,8 +33,13 @@ Users should be able to:
 
 ### Links
 
+<<<<<<< HEAD:v1/README.md
 - Solution URL: [GitHub](https://github.com/bbenbboy/react-interactive-rating-component.git)
 - Live Site URL: [Add live site URL here](https://react-rating-components.netlify.app/)
+=======
+- Solution URL: [Add solution URL here](https://github.com/bbenbboy/1.-interactive-rating-component-main.git)
+- Live Site URL: [Add live site URL here](https://interactive-rating-component-main-beige.vercel.app/)
+>>>>>>> 6ab6292f1bc55da7179b91be63d98d10cf304530:README.md
 
 ## My process
 
