@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/bbenbboy/react-interactive-rating-component.git)
+- Live Site URL: [Add live site URL here](https://react-rating-components.netlify.app/)
 
 ## My process
 
@@ -45,38 +45,11 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- React
 
 ### What I learned
 
-This is the second time I rewrote this project to improve performance.
-
-```js
-submitBtn.addEventListener("click", (event) => {
-  event.preventDefault();
-
-  const btnActive = buttonContainer.querySelector(".active");
-
-  if (btnActive) {
-    scoreRate.textContent = score;
-    card1.classList.add("hidden");
-    card2.classList.remove("hidden");
-  } else {
-    alert("Please give a point");
-  }
-});
-```
-
-```js
-buttons.forEach((button) => {
-  button.addEventListener("click", () => {
-    buttons.forEach((btn) => {
-      btn.classList.remove("active");
-    });
-    button.classList.add("active");
-    score = button.value;
-  });
-});
-```
+This is the third time I rewrote but this project build with React!!
 
 ### Continued development
 
